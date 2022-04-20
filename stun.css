@@ -1,0 +1,160 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  /* align-items: center; */
+
+  padding: 10px 20px;
+  font-weight: 700;
+  border-radius: 300px;
+}
+
+li a {
+  text-decoration: none;
+  padding: 10px 10px;
+  color: gray;
+}
+li {
+  float: left;
+  list-style-type: none;
+}
+li a:hover {
+  color: black;
+  text-decoration: underline;
+}
+.acc {
+  font-weight: 400;
+  padding: 10px 20px;
+  border-radius: 200px;
+  color: rgba(0, 0, 255, 0.788);
+  margin: 5px;
+  border: 1px solid rgba(216, 112, 147, 0.466);
+  background-color: palevioletred;
+}
+* .imag img {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+}
+.container2 {
+  display: flex;
+  flex-direction: row;
+  padding: 60px 120px;
+  text-align: center;
+}
+
+.left h1 {
+  font-size: 60px;
+  color: black;
+  font-style: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.right {
+  align-items: right;
+  padding: 20px;
+}
+.left {
+  align-items: left;
+  padding: 20px;
+}
+.accarr {
+  display: flex;
+  padding: 20px;
+}
+/* .newacc {
+  font-weight: 10;
+  font-family: "Times New Roman", Times, serif;
+  padding: 5px;
+  border-radius: 50px;
+  color: white;
+  border: 1px solid blue;
+  background-color: blue;
+} */
+
+.newacc {
+  font-weight: 100;
+  padding: 10px 10px;
+  border-radius: 300px;
+  color: white;
+  /* margin: 5px; */
+  border: 1px solid blue;
+  background-color: blue;
+}
+
+.uparr {
+  padding: 5px;
+}
+.downarr {
+  padding: 5px;
+}
+.landingimg {
+  align-items: left;
+}
+/* .tab{
+    line-
+} */
+.one :hover {
+  background-color: white;
+}
+ul .row1 {
+  display: flex;
+  padding: 10px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+.gray1 {
+  padding: 5px;
+}
+.para {
+  padding: 10px 50px;
+}
+.user1 {
+  padding: 5px;
+}
+.date {
+  padding: 5px;
+}
+.btn1 {
+  background-color: pink;
+  width: 22px;
+  height: 10px;
+  vertical-align: bottom;
+  padding-left: 20px;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+.btn2 {
+  background-color: red;
+  width: 22px;
+  height: 10px;
+  vertical-align: bottom;
+  padding-left: 20px;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+.btn3 {
+  background-color: green;
+  width: 22px;
+  height: 10px;
+  vertical-align: bottom;
+  padding-left: 20px;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+.btn4 {
+  background-color: orange;
+  width: 22px;
+  height: 10px;
+  vertical-align: bottom;
+  padding-left: 20px;
+  margin-top: 15px;
+  border-radius: 5px;
+}
